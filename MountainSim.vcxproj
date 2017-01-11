@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\applicationclass.cpp" />
+    <ClCompile Include="source\cameraclass.cpp" />
+    <ClCompile Include="source\colorshaderclass.cpp" />
+    <ClCompile Include="source\cpuclass.cpp" />
+    <ClCompile Include="source\d3dclass.cpp" />
+    <ClCompile Include="source\fontclass.cpp" />
+    <ClCompile Include="source\fontshaderclass.cpp" />
+    <ClCompile Include="source\fpsclass.cpp" />
+    <ClCompile Include="source\housemodelclass.cpp" />
+    <ClCompile Include="source\inputclass.cpp" />
+    <ClCompile Include="source\lightclass.cpp" />
+    <ClCompile Include="source\lightshaderclass.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\modelclass.cpp" />
+    <ClCompile Include="source\positionclass.cpp" />
+    <ClCompile Include="source\reflectionshaderclass.cpp" />
+    <ClCompile Include="source\shadermanagerclass.cpp" />
+    <ClCompile Include="source\skydomeclass.cpp" />
+    <ClCompile Include="source\skydomeshaderclass.cpp" />
+    <ClCompile Include="source\skyplaneclass.cpp" />
+    <ClCompile Include="source\skyplaneshaderclass.cpp" />
+    <ClCompile Include="source\systemclass.cpp" />
+    <ClCompile Include="source\terrainclass.cpp" />
+    <ClCompile Include="source\terrainshaderclass.cpp" />
+    <ClCompile Include="source\textclass.cpp" />
+    <ClCompile Include="source\textureclass.cpp" />
+    <ClCompile Include="source\texturemanagerclass.cpp" />
+    <ClCompile Include="source\textureshaderclass.cpp" />
+    <ClCompile Include="source\timerclass.cpp" />
+    <ClCompile Include="source\treemodelclass.cpp" />
+    <ClCompile Include="source\userinterfaceclass.cpp" />
+    <ClCompile Include="source\waterclass.cpp" />
+    <ClCompile Include="source\watershaderclass.cpp" />
+    <ClCompile Include="source\zoneclass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\applicationclass.h" />
+    <ClInclude Include="source\cameraclass.h" />
+    <ClInclude Include="source\colorshaderclass.h" />
+    <ClInclude Include="source\cpuclass.h" />
+    <ClInclude Include="source\d3dclass.h" />
+    <ClInclude Include="source\fontclass.h" />
+    <ClInclude Include="source\fontshaderclass.h" />
+    <ClInclude Include="source\fpsclass.h" />
+    <ClInclude Include="source\housemodelclass.h" />
+    <ClInclude Include="source\inputclass.h" />
+    <ClInclude Include="source\lightclass.h" />
+    <ClInclude Include="source\lightshaderclass.h" />
+    <ClInclude Include="source\modelclass.h" />
+    <ClInclude Include="source\positionclass.h" />
+    <ClInclude Include="source\reflectionshaderclass.h" />
+    <ClInclude Include="source\shadermanagerclass.h" />
+    <ClInclude Include="source\skydomeclass.h" />
+    <ClInclude Include="source\skydomeshaderclass.h" />
+    <ClInclude Include="source\skyplaneclass.h" />
+    <ClInclude Include="source\skyplaneshaderclass.h" />
+    <ClInclude Include="source\systemclass.h" />
+    <ClInclude Include="source\terrainclass.h" />
+    <ClInclude Include="source\terrainshaderclass.h" />
+    <ClInclude Include="source\textclass.h" />
+    <ClInclude Include="source\textureclass.h" />
+    <ClInclude Include="source\texturemanagerclass.h" />
+    <ClInclude Include="source\textureshaderclass.h" />
+    <ClInclude Include="source\timerclass.h" />
+    <ClInclude Include="source\treemodelclass.h" />
+    <ClInclude Include="source\userinterfaceclass.h" />
+    <ClInclude Include="source\waterclass.h" />
+    <ClInclude Include="source\watershaderclass.h" />
+    <ClInclude Include="source\zoneclass.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BA69D23-A6CA-4D28-844C-9CF9E761CF57}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MountainSim</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
